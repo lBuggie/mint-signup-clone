@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <title>Mint Clone Project</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8e996abce9.js"></script>
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <!-- Header elements -->
+            <nav>
+                <div id="account-text">
+                    <p>Already have an Intuit account?</p>
+                    <a href="#" class="link-style">I forgot my User ID or Password</a>
+                </div>
+                <button class="button-style"><i class="fas fa-lock"></i> Sign in</button>
+            </nav>
+            <div id="header-logo">
+                <img id="logo" src="images/logo.png" alt="Intuit">
+                <img src="images/other-logos.png" alt="Others">
+            </div>
+        </header>
+
+        <!-- Form section -->
+        <section>
+            <!-- Form header -->
+            <header>
+                <h1>Create an Intuit account</h1>
+                <p>One account for everything Intuit, including Mint.</p>
+                <a class="link-style" href="#">Learn more</a>
+            </header>
+            <!-- Form -->
+            <form>
+                <fieldset>
+                    <label for="email">Email address</label>
+                    <input id="email" type="email" name="email" required>
+                    <label for="phone">Phone (recommended)</label>
+                    <input id="phone" type="tel" name="phone">
+                    <span>Standard call, messaging or data rates may apply.</span>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" required>                 
+                </fieldset>
+                <fieldset>
+                    <button class="button-style"><i class="fas fa-lock"></i> Create Account</button>
+                </fieldset>
+            </form>
+            <p class="secondary-color" id="terms-paragraph">
+                By clicking Create account, you agree to our <a class="link-style" href="#">Terms</a> and have read and acknowledge our <a class="link-style" href="#">Privacy Statement</a>
+            </p>
+            <footer>
+                <p>Invisible reCAPTCHA by Google <a href="#" class="link-style">Privacy Policy</a> and <a href="#" class="link-style">Terms of Use</a>.</p>
+            </footer>
+        </section>
+        <footer>
+            <a href="#" class="footer-links">Legal</a>
+            <a href="#" class="footer-links">Privacy</a>
+            <a href="#" class="footer-links">Security</a>
+            <p>&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. </p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </footer>
+    </body>
+</html>
