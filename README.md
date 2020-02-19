@@ -1,10 +1,8 @@
-# Youtube Clone
+# Mint SignUp Clone
 
-> This is a YouTube clone for the Basic HTML structure project based on the archive link provided.
+> This is a Mint sign up page clone for practicing forms in HTML.
 
-- Archive: http://archive.ph/Bss88
-
-![screenshot](images/youtube-clone.png)
+![screenshot](images/mint-clone-screen.png)
 
 ## Built With
 
@@ -13,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://flpfar.github.io/youtube-clone/)
+[Live Demo Link](https://lbuggie.github.io/mint-signup-clone/)
 
 ## Authors
 
@@ -38,7 +36,3 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- https://flaviocopes.com published code snippet for responsive YouTube player.
