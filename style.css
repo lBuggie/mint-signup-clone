@@ -6,9 +6,6 @@
 }
 
 /* Color classes */
-.primary-color {
-  color: #4c4c4c;  
-}
 
 .secondary-color {
   color: #757575;
@@ -18,18 +15,22 @@
   color: #0077c5;
 }
 
+.button-color {
+  background-color: #0077c5;
+}
+
 .footer-color {
   color: #505050
 }
 
 body {
   background-color: #eceef1;
+  color: #4c4c4c;
 }
 
 /* Main header */
 
 body > header {
-  background-color: red;
   width: 100vw;
   height: 15vh;
 }
@@ -45,10 +46,18 @@ body > header {
 /* Nav elements */
 
 nav {
-  background-color: gray;
   margin-left: auto;
-  width: 300px;
   height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#account-text {
+  text-align: right;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* Main section */
