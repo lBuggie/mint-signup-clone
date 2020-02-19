@@ -86,17 +86,18 @@ section {
   min-width: 380px;
   max-width: 380px;
   padding: 30px 30px 0 30px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
 }
 
 /* Form header */
 section header {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 section header h1 {
@@ -116,32 +117,78 @@ section header a {
 
 /* Form */
 
-section form {
-  background-color: lightblue;
-}
-
 section form fieldset {
   display: flex;
   flex-direction: column;
+  font-size: 0.9em;
 }
 
-section form input{
+section form label {
+  margin-top: 30px;
+}
+
+section form input {
   width: 100%;
+  margin: 10px 0 4px 0;
+  border: 1px solid #c7c7c7;
+  height: 34px;
+  padding: 0 6px;
+  border-radius: 3px;
+  font-size: 1.1em;
+}
+
+section form span {
+  font-size: 0.7em;
+}
+
+section form button {
+  padding: 10px 0;
+  font-size: 1.1em;
+  border-radius: 4px;
+  margin-top: 25px;
+
+}
+
+#terms-paragraph {
+  margin: 20px 0;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  padding: 15px;
+  line-height: 20px;
 }
 
 section footer {
-  min-width: 380px;
-  max-width: 380px;
-  background-color: lightcoral;
-  height: 40px;
+  width: calc(100% + 60px);
+  background-color: #eceef1;
+  height: 54px;
   margin: 0 -30px;
+  border-radius: 0 0 3px 3px;
+}
+
+section footer p {
+  font-size: 0.7em;
+  text-align: center;
+  line-height: 54px;
+  color: #8d9096;
 }
 
 /* Footer elements */
 
-footer {
-  background-color: lightgreen;
+body > footer {
   width: 100%;
-  height: 40px;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 16px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
 }
 
