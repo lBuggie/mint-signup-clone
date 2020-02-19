@@ -87,21 +87,46 @@ section {
   max-width: 380px;
   padding: 30px 30px 0 30px;
   margin: 0 auto;
-
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
 }
 
+/* Form header */
 section header {
-  background-color: gray;
-  height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+section header h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+section header p {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+section header a {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+/* Form */
 
 section form {
   background-color: lightblue;
-  height: 30px;
+}
+
+section form fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+section form input{
+  width: 100%;
 }
 
 section footer {
