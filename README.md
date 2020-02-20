@@ -1,3 +1,4 @@
+
 # Mint SignUp Clone
 
 > This is a Mint sign up page clone for practicing forms in HTML.
@@ -37,3 +38,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+=======
+# mint-signup-clone
+
